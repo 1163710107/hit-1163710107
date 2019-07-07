@@ -85,8 +85,8 @@ class OpenGLWindow:
         # 进入消息循环
         glutMainLoop()
 
-
-# 创建窗口
-window = OpenGLWindow()
-# 进入消息循环
-window.MainLoop()
+if __name__ == "__main__":
+    # 创建窗口
+    window = OpenGLWindow()
+    # 进入消息循环
+    window.MainLoop()
